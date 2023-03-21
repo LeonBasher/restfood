@@ -1,0 +1,40 @@
+  .navbar-limiter {
+    max-width: 1290px;
+    background-color: transparent;
+    margin: 0 auto;
+    font-size: 20px;
+    position: relative;
+    z-index: +1;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: 'Poppins ExtraBold';
+    font-size: 15px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffcc33;
+  }
+
+  .custom-navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+  @media (min-width:768px) {
+    .navbar-dark .navbar-nav .nav-link {
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .nav-item + .nav-item {
+      margin-left: 15px;
+    }
+  }

@@ -1,0 +1,14 @@
+  .sales-background {
+    background-image: url(../media/bg-offer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+  }
+
+  .sales-block {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }

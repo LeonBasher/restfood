@@ -1,0 +1,57 @@
+  .about-us-content {
+    text-align: left;
+    width: 100%;
+    max-width: 849px;
+  }
+
+  .about-us-content + *  {
+    margin-top: 30px;
+  }
+
+  .about-us-title {
+    padding-left: 80px;
+  }
+
+  .about-us-advantage-image-container {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+  }
+
+  .about-us-advantage-image-container + *{
+    margin-top: 15px;
+  }
+
+  .about-us-advantage {
+    text-align: center;
+    font-size: 15px;
+  }
+
+ .about-image {
+   width: 100%;
+   height: auto;
+ }
+
+ .video-container {
+   position: relative;
+ }
+
+ .play-button {
+   background-color: #ffcc33;
+   width: 70px;
+   height: 70px;
+   border-radius: 40px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   cursor: pointer;
+ }
+
+ .play-button img{
+   fill: black;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }

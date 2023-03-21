@@ -1,0 +1,63 @@
+  .btn-menu {
+    transition: 900ms;
+    background-color: #ffcc33;
+    border-color: #ffcc33;
+    color: black;
+    font-family: 'Poppins ExtraBold';
+    text-transform: uppercase;
+  }
+
+  .btn-menu:hover {
+    background-color: white;
+    border-color: #ffcc33;
+    color: black;
+  }
+
+  .contains-menu-buttons + * {
+    margin-top: 30px;
+  }
+
+  .menu-item {
+    background-color: black;
+    position: relative;
+  }
+
+  .food-price {
+    color: #ffcc33;
+    font-family: 'Poppins ExtraBold';
+    font-size: 20px;
+  }
+
+  .contains-menu-items:nth-child(1n + 2){
+    margin-top: 20px;
+  }
+
+  @media (min-width:768px) {
+    .contains-menu-items:nth-child(1n + 2){
+      margin-top: 0;
+    }
+
+    .contains-menu-items:nth-child(1n + 3){
+      margin-top: 20px;
+    }
+  }
+
+  @media (min-width:992px) {
+    .food-name {
+      font-size: 15px;
+    }
+
+    .contains-menu-items:nth-child(1n + 3){
+      margin-top: 0;
+    }
+
+    .contains-menu-items:nth-child(1n + 5){
+      margin-top: 20px;
+    }
+  }
+
+  @media (min-width:1440px) {
+    .food-name {
+      font-size: 20px;
+    }
+  }

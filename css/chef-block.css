@@ -1,0 +1,48 @@
+  .chef-card {
+    background-color: black;
+    border-radius: 0;
+  }
+
+  .chef-name {
+    font-size: 20px;
+  }
+
+  .chef-name + * {
+    margin-top: 10px;
+  }
+
+  .chef-rol {
+    text-transform: capitalize;
+  }
+
+  .chef-social-media-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .chef-social-media-icon img{
+    fill: #ffcc33;
+  }
+
+  .contains-social-media-chef + .contains-social-media-chef {
+    padding-left: 10px;
+  }
+
+  .chef-column:nth-child(1n + 2) {
+    margin-top: 20px;
+  }
+
+  @media (min-width:768px) {
+    .chef-column:nth-child(1n + 2) {
+      margin-top: 0;
+    }
+    .chef-column:nth-child(1n + 3) {
+      margin-top: 20px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .chef-column:nth-child(1n + 3) {
+      margin-top: 0;
+    }
+  }

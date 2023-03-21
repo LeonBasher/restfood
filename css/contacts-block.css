@@ -1,0 +1,65 @@
+  .contact-heading {
+    font-size: 20px;
+  }
+
+  .contact-phone {
+    transition: 300ms;
+    color: #ffcc33;
+    font-family: 'Poppins ExtraBold';
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .contact-phone:hover {
+    color: #00e6ff;
+  }
+
+  .contact-mail {
+    transition: 300ms;
+    color: #ffcc33;
+    font-family: 'Poppins ExtraBold';
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .contact-mail:hover {
+    color: #00e6ff;
+  }
+
+  .contact-col:nth-child(1n + 2) {
+    margin-top: 15px;
+  }
+
+  .location::before {
+    content: url(../media/location.svg);
+    padding-right: 10px;
+  }
+
+  .phone::before {
+    content: url(../media/phone.svg);
+    padding-right: 10px;
+  }
+
+  .email::before {
+    content: url(../media/mail.svg);
+    padding-right: 10px;
+  }
+
+  .social-media-col {
+    min-width: 44px;
+  }
+
+  @media (min-width:768px) {
+    .contact-col:nth-child(1n + 2) {
+      margin-top: 0;
+    }
+    .contact-col:nth-child(1n + 3) {
+      margin-top: 15px;
+    }
+  }
+
+  @media (min-width:992px) {
+    .contact-col:nth-child(1n + 3) {
+      margin-top: 0;
+    }
+  }

@@ -1,0 +1,32 @@
+  .gallery-item {
+    transition: 300ms;
+    padding: 0;
+  }
+
+  .gallery-item:hover .gallery-image .gradient-gallery-background {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .gallery-image {
+    border: 0;
+    border-radius: 0;
+    background-color: black;
+    position: relative;
+  }
+
+  .gradient-gallery-background {
+    transition: 300ms;
+    position: absolute;
+    background-color: black;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .gallery-image img{
+    width: 100%;
+    height: auto;
+  }

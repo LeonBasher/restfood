@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RestFood</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/special-dishes-block.css">
+    <link rel="stylesheet" href="./css/about-us-block.css">
+    <link rel="stylesheet" href="./css/sales-block.css">
+    <link rel="stylesheet" href="./css/chef-block.css">
+    <link rel="stylesheet" href="./css/menu-block.css">
+    <link rel="stylesheet" href="./css/gallery-block.css">
+    <link rel="stylesheet" href="./css/book-a-table-block.css">
+    <link rel="stylesheet" href="./css/contacts-block.css">
+  </head>
+  <body>
+      <div class="hero">
+
+        <nav class="navbar navbar-expand-md navbar-dark navbar-limiter">
+          <!-- logo -->
+          <a class="navbar-brand" href="#">
+            <img src="./media/logo.png" alt="">
+          </a>
+          <!-- Boton  -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Enlaces -->
+          <div class="collapse navbar-collapse custom-navbar-collapse" id="opciones">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link nav-link-color-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-color-white" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-color-white" href="#chefs">Chefs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-color-white" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-color-white" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-color-white" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Hero -->
+        <div class="hero-positioner">
+          <div class="hero-container">
+            <div class="hero-content">
+              <h1 class="h1">best quality food</h1>
+              <p class="hero-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias provident laborum, recusandae delectus corrupti reprehenderit error distinctio eligendi qui consequuntur officia.
+              </p>
+              <div class="contains-hero-button">
+                <a class="btn btn-primary hero-button" href="#">Book a Table</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="background-color-black">
+        <div class="container">
+          <div class="contains-block-title">
+            <h2 class="h2 block-title">OUR SPECIAL DISHES</h2>
+            <p class="title-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores.
+            </p>
+          </div>
+              <div class="row justify-content-center">
+                  <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner" role="listbox">
+                          <div class="carousel-item active">
+                              <div class="col-md-3">
+                                  <div class="card text-center special-dish-col">
+                                      <div class="card-img">
+                                          <img src="./media/special-dishes-1.png" class="img-fluid">
+                                      </div>
+                                      <div class="card-body">
+                                        <h2 class="h2 card-title special-dish-name">burger</h2>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <p class="food-price">$8.60</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-md-3">
+                                  <div class="card text-center special-dish-col">
+                                      <div class="card-img">
+                                          <img src="./media/special-dishes-2.jpg" class="img-fluid">
+                                      </div>
+                                      <div class="card-body">
+                                        <h2 class="h2 card-title special-dish-name">beef burger meal</h2>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <p class="food-price">$12.99</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-md-3">
+                                  <div class="card text-center special-dish-col">
+                                      <div class="card-img">
+                                          <img src="./media/special-dishes-3.jpg" class="img-fluid">
+                                      </div>
+                                      <div class="card-body">
+                                        <h2 class="h2 card-title special-dish-name">double cheese pizza</h2>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <p class="food-price">$15.00</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-md-3">
+                                  <div class="card text-center special-dish-col">
+                                      <div class="card-img">
+                                          <img src="./media/special-dishes-4.jpg" class="img-fluid">
+                                      </div>
+                                      <div class="card-body">
+                                        <h2 class="h2 card-title special-dish-name">Ceaser salad</h2>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <p class="food-price">$10.00</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-md-3">
+                                  <div class="card text-center special-dish-col">
+                                      <div class="card-img">
+                                          <img src="./media/special-dishes-5.png" class="img-fluid">
+                                      </div>
+                                      <div class="card-body">
+                                        <h2 class="h2 card-title special-dish-name">pasta</h2>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <p class="food-price">$11.30</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      </a>
+                      <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      </a>
+                  </div>
+              </div>
+
+
+
+        </div>
+      </div>
+
+      <div class="background-color-black">
+        <div class="container">
+          <div class="row" id="about-us">
+            <div class="col-lg-8">
+              <div class="contains-block-title about-us-content">
+                <h2 class="h2 block-title about-us-title">Good food for your all day good mood</h2>
+                <p>
+                  Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.
+                </p>
+                <p>
+                  Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.
+                </p>
+                <p>
+                  Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="about-us-advantage-image-container">
+                    <img src="./media/advantage-1.png" alt="">
+                  </div>
+                  <h3 class="h3 about-us-advantage">EXPERIENCED CHEFS</h3>
+                </div>
+                <div class="col-md-4">
+                  <div class="about-us-advantage-image-container">
+                    <img src="./media/advantage-2.png" alt="">
+                  </div>
+                  <h3 class="h3 about-us-advantage">EXPERIENCED CHEFS</h3>
+                </div>
+                <div class="col-md-4">
+                  <div class="about-us-advantage-image-container">
+                    <img src="./media/advantage-3.png" alt="">
+                  </div>
+                  <h3 class="h3 about-us-advantage">EXPERIENCED CHEFS</h3>
+                </div>
+              </div>
+            </div>
+          <div class="col">
+            <div class="video-container">
+              <div class="play-button">
+                <img src="./media/play-button.svg" alt="">
+              </div>
+              <img class="about-image"src="./media/about-big.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sales-background">
+      <div class="container">
+        <div class="sales-block">
+          <h2 class="h2">DOUBLE CHEESE PIZZA 30% OFF FRIDAY ONLY</h2>
+          <div class="contains-hero-button">
+            <a class="btn btn-primary hero-button" href="#">Book a Table</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background-color-black">
+      <div class="container">
+        <div class="contains-block-title">
+          <h2 class="h2 block-title" id="chefs">our best chef</h2>
+          <p class="title-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 chef-column">
+            <div class="card text-center chef-card">
+              <img class="card-img-top" src="./media/chef-1.jpg" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title chef-name">Richard Nauz</h3>
+                <p class="card-text chef-rol">food chef</p>
+                <div class="chef-social-media-container">
+                  <div class="contains-social-media-chef">
+                    <img src="./media/facebook.svg" alt="">
+                  </div>
+                  <div class="contains-social-media-chef">
+                    <img src="./media/twitter.svg" alt="">
+                  </div>
+                  <div class="contains-social-media-chef">
+                    <img src="./media/instagram.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 chef-column">
+            <div class="card text-center chef-card">
+              <img class="card-img-top" src="./media/chef-2.jpg" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title chef-name">Olivia grosh</h3>
+                <p class="card-text chef-rol">food chef</p>
+                <div class="chef-social-media-container">
+                  <div class="contains-social-media-chef">
+                    <img src="./media/facebook.svg" alt="">
+                  </div>
+                  <div class="contains-social-media-chef">
+                    <img src="./media/twitter.svg" alt="">
+                  </div>
+                  <div class="contains-social-media-chef">
+                    <img src="./media/instagram.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 chef-column">
+            <div class="card text-center chef-card">
+              <img class="card-img-top" src="./media/chef-3.jpg" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title chef-name">Jeremy White</h3>
+                <p class="card-text chef-rol">food chef</p>
+                <div class="chef-social-media-container">
+                  <div class="contains-social-media-chef">
+                    <img src="./media/facebook.svg" alt="">
+                  </div>
+                  <div class="contains-social-media-chef">
+                    <img src="./media/twitter.svg" alt="">
+                  </div>
+                  <div class="contains-social-media-chef">
+                    <img src="./media/instagram.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 chef-column">
+            <div class="card text-center chef-card">
+              <img class="card-img-top" src="./media/chef-4.jpg" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title chef-name">Howard Holmes</h3>
+                <p class="card-text chef-rol">food chef</p>
+                <div class="chef-social-media-container">
+                  <div class="contains-social-media-chef">
+                    <img src="./media/facebook.svg" alt="">
+                  </div>
+                  <div class="contains-social-media-chef">
+                    <img src="./media/twitter.svg" alt="">
+                  </div>
+                  <div class="contains-social-media-chef">
+                    <img src="./media/instagram.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background-color-black">
+      <div class="container">
+        <div class="contains-block-title">
+          <h2 class="h2 block-title" id="menu">Our Menu</h2>
+        </div>
+        <div class="gap-3 d-md-flex justify-content-md-center contains-menu-buttons">
+          <button class="btn btn-primary btn-menu" type="button">All</button>
+          <button class="btn btn-primary btn-menu" type="button">Burgers</button>
+          <button class="btn btn-primary btn-menu" type="button">Pizzas</button>
+          <button class="btn btn-primary btn-menu" type="button">Steaks</button>
+          <button class="btn btn-primary btn-menu" type="button">Pasts</button>
+          <button class="btn btn-primary btn-menu" type="button">Salads</button>
+          <button class="btn btn-primary btn-menu" type="button">Deserts</button>
+          <button class="btn btn-primary btn-menu" type="button">Drinks</button>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 contains-menu-items">
+            <div class="card text-center menu-item">
+              <img class="card-img-top" src="./media/product-1.jpg" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title food-name">Double Cheese Pizza</h3>
+                <p class="card-text food-description">Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                <p class="card-text food-price">$15.30</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 contains-menu-items">
+            <div class="card text-center menu-item">
+              <img class="card-img-top" src="./media/product-2.jpg" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title food-name">sea food</h3>
+                <p class="card-text food-description">Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                <p class="card-text food-price">$23.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 contains-menu-items">
+            <div class="card text-center menu-item">
+              <img class="card-img-top" src="./media/product-3.png" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title food-name">Double Mac burger</h3>
+                <p class="card-text food-description">Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                <p class="card-text food-price">$13.80</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 contains-menu-items">
+            <div class="card text-center menu-item">
+              <img class="card-img-top" src="./media/product-4.jpg" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title food-name">Double Cheese Pizza</h3>
+                <p class="card-text food-description">Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                <p class="card-text food-price">$16.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 contains-menu-items">
+            <div class="card text-center menu-item">
+              <img class="card-img-top" src="./media/product-5.jpg" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title food-name">BEEF CHEESE BURGER</h3>
+                <p class="card-text food-description">Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                <p class="card-text food-price">$11.50</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 contains-menu-items">
+            <div class="card text-center menu-item">
+              <img class="card-img-top" src="./media/product-6.jpg" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title food-name">GRAND ITALIANO PIZZA</h3>
+                <p class="card-text food-description">Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                <p class="card-text food-price">$21.30</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 contains-menu-items">
+            <div class="card text-center menu-item">
+              <img class="card-img-top" src="./media/product-7.jpg" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title food-name">Lemonade</h3>
+                <p class="card-text food-description">Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                <p class="card-text food-price">$5.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 contains-menu-items">
+            <div class="card text-center menu-item">
+              <img class="card-img-top" src="./media/product-8.jpg" alt="">
+              <div class="card-body">
+                <h3 class="h3 card-title food-name">Chicken Burger</h3>
+                <p class="card-text food-description">Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                <p class="card-text food-price">$14.35</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background-color-black">
+      <div class="container">
+        <div class="contains-block-title">
+          <h2 class="h2 block-title" id="menu">gallery</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 gallery-item">
+            <div class="card gallery-image">
+              <img class="card-img-top" src="./media/gallery-1.jpg" alt="">
+              <div class="gradient-gallery-background"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 gallery-item">
+            <div class="card gallery-image">
+              <img class="card-img-top" src="./media/gallery-2.jpg" alt="">
+              <div class="gradient-gallery-background"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 gallery-item">
+            <div class="card gallery-image">
+              <img class="card-img-top" src="./media/gallery-3.jpg" alt="">
+              <div class="gradient-gallery-background"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 gallery-item">
+            <div class="card gallery-image">
+              <img class="card-img-top" src="./media/gallery-4.jpg" alt="">
+              <div class="gradient-gallery-background"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 gallery-item">
+            <div class="card gallery-image">
+              <img class="card-img-top" src="./media/gallery-5.jpg" alt="">
+              <div class="gradient-gallery-background"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 gallery-item">
+            <div class="card gallery-image">
+              <img class="card-img-top" src="./media/gallery-6.jpg" alt="">
+              <div class="gradient-gallery-background"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background-color-black">
+      <div class="container">
+        <div class="contains-block-title">
+          <h2 class="h2 block-title" id="menu">book a table</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row formul">
+              <div class="col-sm-6 input-col">
+                <label class="table-label">Name</label>
+                <input class="form-control input-table" type="text" name="" value="" placeholder="Name">
+              </div>
+              <div class="col-sm-6 input-col">
+                <label class="table-label">Last Name</label>
+                <input class="form-control input-table" type="text" name="" value="" placeholder="Name">
+              </div>
+              <div class="col-sm-6 input-col">
+                <label class="table-label">Phone</label>
+                <input class="form-control input-table" type="text" name="" value="" placeholder="Name">
+              </div>
+              <div class="col-sm-6 input-col">
+                <label class="table-label">Email</label>
+                <input class="form-control input-table" type="mail" name="" value="" placeholder="Name">
+              </div>
+              <div class="col-sm-6 input-col">
+                <label class="table-label">date</label>
+                <input class="form-control input-table" type="date" name="" value="" placeholder="Name">
+              </div>
+              <div class="col-sm-6 input-col">
+                <label class="table-label">time</label>
+                <input class="form-control input-table" type="time" name="" value="" placeholder="Name">
+              </div>
+            </div>
+            <div class="contains-hero-button">
+              <a class="btn btn-primary hero-button book-a-table-button" href="#">Book a Table</a>
+            </div>
+          </div>
+          <div class="col">
+            <h3 class="h3">Opening hours</h3>
+            <p class="hours-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, inventore hic nulla, provident laudantium voluptate ipsa eligendi commodi mollitia vero animi, repudiandae quidem minima est sint sapiente quas iure deleniti.</p>
+            <table class="table table-responsive table-table">
+              <tbody>
+                <tr>
+                  <td>Monday - Friday</td>
+                  <td>8AM - 6PM</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>9AM - 5PM</td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>9AM - 4PM</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background-color-black">
+      <div class="container">
+        <div class="contains-block-title">
+          <h2 class="h2 block-title" id="menu">contacts</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 contact-col">
+            <h3 class="h3 contact-heading location">location</h3>
+            <p>2900 Lapeer Rd, Port Hurons</p>
+          </div>
+          <div class="col-md-6 col-lg-3 contact-col">
+            <h3 class="h3 contact-heading phone">phone</h3>
+            <a class="contact-phone" href="tel:800 478 42 51">800 478 42 51</a>
+          </div>
+          <div class="col-md-6 col-lg-3 contact-col">
+            <h3 class="h3 contact-heading email">email</h3>
+            <a class="contact-mail" href="mailto:info@restfood.com">info@restfood.com</a>
+          </div>
+          <div class="col-md-6 col-lg-3 contact-col">
+            <h3 class="h3 contact-heading ">social media</h3>
+            <div class="row">
+              <div class="col-1 social-media-col">
+                <img src="./media/facebook-footer.svg" alt="">
+              </div>
+              <div class="col-1 social-media-col">
+                <img src="./media/twitter-footer.svg" alt="">
+              </div>
+              <div class="col-1 social-media-col">
+                <img src="./media/instagram-footer.svg" alt="">
+              </div>
+              <div class="col-1 social-media-col">
+                <img src="./media/youtube-footer.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background-color-black">
+      <div class="copyright-container">
+        <p class="copyright-class">Copyright © All rights reserved. <a href="#">Terms of use and Privacy Policy</a>.</p>
+      </div>
+    </div>
+    <script src="./js/javascript.js" type="text/javascript">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  </body>
+</html>

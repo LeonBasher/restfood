@@ -1,0 +1,135 @@
+  @font-face {
+    font-family: 'Poppins ExtraBold';
+    src: url('../fonts/Poppins/Poppins-ExtraBold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Poppins Black';
+    src: url('../fonts/Poppins/Poppins-Black.ttf');
+  }
+
+  @font-face {
+    font-family: 'Halant';
+    src: url('../fonts/Halant/Halant-Regular.ttf');
+  }
+
+  body {
+    font-family: 'Halant';
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .background-color-black {
+    background-color: black;
+    color: #b8b8b8;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  p + p {
+    margin-top: 15px;
+  }
+
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Poppins Black';
+    color:white;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .h1 {
+    font-size: 50px;
+  }
+
+  .h1 + * {
+    margin-top: 20px;
+  }
+
+  .h2 + * {
+    margin-top: 20px;
+  }
+
+  .h3 + * {
+    margin-top: 10px;
+  }
+
+  .container {
+    max-width: 1290px;
+    padding: 70px 20px;
+  }
+  /* Title block */
+  .contains-block-title {
+    text-align: center;
+    max-width: 648px;
+    margin: 0 auto;
+  }
+
+  .contains-block-title + *{
+    margin-top: 30px;
+  }
+
+  .block-title {
+    font-size: 30px;
+    background-image: url(../media/bg-title.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .title-description {
+    font-size: 20px;
+  }
+
+  .col-md-4 + .col-md-4 {
+    margin-top: 20px;
+  }
+
+  .col-lg-8 + * {
+    margin-top: 50px;
+  }
+
+  .card-text + * {
+    margin-top: 10px;
+  }
+
+  .video-fluid {
+    width: 100%;
+  }
+
+  .copyright-container {
+    padding: 40px 0;
+    max-width: 1290px;
+    margin: 0 auto;
+  }
+
+  .copyright-class {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .copyright-class a {
+    color: #b8b8b8;
+  }
+
+  @media (min-width:768px) {
+    .block-title {
+      font-size: 40px;
+    }
+
+    .col-md-4 + .col-md-4 {
+      margin-top: 0;
+    }
+  }
+
+  @media (min-width:990px) {
+    .col-lg-8 + * {
+      margin-top: 0;
+    }
+
+    #about-us {
+      flex-direction: row-reverse;
+    }
+  }
